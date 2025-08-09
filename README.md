@@ -31,6 +31,6 @@ mvn test
 
 ## Estructura
 
-- `src/test/java/com/selenium/CrossBrowserHeadlessTest.java` - Clase de prueba
+- `src/test/java/CrossBrowserHeadlessTest.java` - Clase de prueba
 - `testng.xml` - Configuración TestNG para cross-browser testing
 - `pom.xml` - Configuración Maven

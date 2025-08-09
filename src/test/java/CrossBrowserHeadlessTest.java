@@ -1,5 +1,3 @@
-package com.selenium;
-
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
@@ -49,7 +47,7 @@ public class CrossBrowserHeadlessTest {
         String title = driver.getTitle();
         System.out.println("Título obtenido: " + title);
         
-        Assert.assertEquals(title, "Test login", 
+        Assert.assertEquals(title, "Test Login | Practice Test Automation", 
             "El título de la página no es el esperado");
         
         System.out.println("Prueba exitosa - Título verificado correctamente");
